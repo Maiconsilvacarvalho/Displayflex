@@ -1,0 +1,52 @@
+/* GERAL
+Flex container */
+
+body {
+  font-family: nomospace;
+  color: #333;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+.item {
+  margin: 5px;
+  background: tomato;
+  text-align: center;
+  font: size 1.5em;
+  flex: 1;
+}
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.teste {
+  background: rgb(226, 218, 218);
+  font-size: 12px;
+  text-align: left;
+  float: top;
+  width: 20px;
+  top: 50px;
+}
+
+.tx {
+  font-size: 14px;
+  margin: 20px 0 0 0;
+}
+
+article {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  font-family: "Courier New";
+}
